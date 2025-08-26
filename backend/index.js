@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chalo-baat-kare-hhwg.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
